@@ -345,3 +345,21 @@ table.Menu tr td
 { background: #87CEFA;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+table.staff
+{ margin: 10px 0 30px 0;
+height: 80px;
+width: 500px;
+
+}
+table.staff tr th, table.staff tr td
+{ background: #00BFFF;
+  color: #000000;
+  padding: 7px 4px;
+  text-align: center;
+}
+  
+table.staff tr td
+{ background: #87CEFA;
+  color: #47433F;
+  border-top: 1px solid #FFF;}
