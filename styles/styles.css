@@ -146,7 +146,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   padding: 0 24px 20px 20px;
   background: #FOF8FF;} 
 
-.sidebar
+.container .sidebar
 { float: right;
   width: auto;
   height: auto;
