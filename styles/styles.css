@@ -76,7 +76,9 @@ ol li
 
 #header
 { background: transparent;
-  height: 202px;}
+  height: 202px;
+  width: 100%
+}
 
 #logo
 { width: 898px;
@@ -110,7 +112,7 @@ ol li
   color: #000000;}
 
 #menubar
-{ width: 898px;
+{ width: 100%;
   height: 52px;
   padding: 0;
   background: #000;} 
@@ -142,7 +144,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: transparent url(transparent_light.png) repeat;}
 
 #address_details
-{ width: 854px;
+{ width: 30%;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0 24px 20px 20px;
@@ -150,14 +152,14 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 .container, #sidebar
 { float: right;
-  width: auto;
+  width: 30%;
   height: auto;
   padding: 0 15px 20px 25px;
   }
 
 .container, #content
-{ float: left;
-  width: auto;
+{ float: right;
+  width: 70%;
   height: auto;
   padding: 0 15px 20px 25px;
   }
@@ -174,7 +176,7 @@ img {
   border-radius: 4px;
   padding: 5px;
   width: 200px;
-  height: 150px}
+height: 150px}
 
 img {
   border: 0px solid #ddd;
@@ -183,7 +185,7 @@ img {
   width: 200px;
 height: 200px}
 
-.container, #footer
+#footer
 { width: 898px;
   font: normal 100% 'preconnect', sans-serif;
   height: 33px;
