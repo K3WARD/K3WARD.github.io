@@ -19,7 +19,7 @@ body
 p
 { padding: 0 0 20px 0;
   line-height: 1.2em;
-white-space:nowrap;}
+  white-space:nowrap;}
 
 
 h1, h2, h3, h4, h5, h6, h7, h8
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6, h7, h8
   color: #000000;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
-white-space:nowrap;}
+  white-space:nowrap;}
 
 a, a:hover
 { outline: none;
@@ -72,7 +72,7 @@ ol
 ol li
 { margin: 0 0 11px 0;}
 
-#main, #logo, #menubar, #address_details, #footer
+#main, #logo, #menubar, #address_details, #footer, #information
 { margin-left: auto; 
   margin-right: auto;}
 
@@ -83,9 +83,9 @@ ol li
 }
 
 #logo
-{ width: 898px;
+{ width: 100%;
   position: relative;
-  height: 148px;
+  height: 20%;
   border-bottom: 2px solid #FFF;}
 
 #logo #logo_text 
@@ -131,7 +131,7 @@ ul#menu li a
 { letter-spacing: 0.1em;
   font: normal 100% 'preconnect', sans-serif;
   display: block; 
-  float: left; 
+  float: centre; 
   height: 17px;
   margin: 10px 0 0 10px;
   padding: 9px 26px 6px 26px;
@@ -147,6 +147,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 #address_details
 { width: 30%;
+  height: 60%;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0 24px 20px 20px;
@@ -159,7 +160,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   padding: 0 15px 20px 25px;
   }
 
-.container, #content
+.container, #information
 { float: right;
   width: 70%;
   height: 60%;
