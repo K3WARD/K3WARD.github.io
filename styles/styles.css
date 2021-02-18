@@ -12,8 +12,8 @@ body
   background: #F0F8FF;
   color: #000000;
   font-family: 'preconnect', sans-serif;
-  width: 100%; 
-  height: 100%;
+  width: auto; 
+  height: auto;
 }
 p
 { padding: 0 0 20px 0;
