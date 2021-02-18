@@ -6,9 +6,10 @@ html
   padding: 0;}
 
 body
-{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+{ font: normal .80em 'preconnect', sans-serif;
   background: #F0F8FF;
-  color: #000000;}
+  color: #000000;
+  font-family: 'preconnect',sans-serif ;}
 
 p
 { padding: 0 0 20px 0;
@@ -17,7 +18,7 @@ white-space:nowrap;}
 
 
 h1, h2, h3, h4, h5, h6, h7, h8
-{ font: normal 175% 'century gothic', arial, sans-serif;
+{ font: normal 175% 'preconnect', sans-serif;
   color: #000000;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
@@ -86,7 +87,7 @@ ol li
   left: 0;}
 
 #logo h1, #logo h2
-{ font: normal 300% 'century gothic', arial, sans-serif;
+{ font: normal 300% 'preconnect', sans-serif;
   border-bottom: 0;
   text-transform: none;
   margin: 0;}
@@ -121,7 +122,7 @@ ul#menu li
 
 ul#menu li a
 { letter-spacing: 0.1em;
-  font: normal 100% arial, sans-serif;
+  font: normal 100% 'preconnect', sans-serif;
   display: block; 
   float: left; 
   height: 17px;
@@ -174,7 +175,7 @@ height: 200px}
 
 #footer
 { width: 898px;
-  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  font: normal 100% 'preconnect', sans-serif;
   height: 33px;
   padding: 24px 0 5px 0;
   text-align: center; 
