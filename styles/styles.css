@@ -190,7 +190,7 @@ img {
   width: 200px;
 height: 200px}
 
-.container-fluid, footer
+.container-fluid, #footer
 { width: 100%;
   font: normal 100% 'preconnect', sans-serif;
   height: 10%;
