@@ -392,11 +392,11 @@ table.staff tr td
 
 // Large devices (desktops, 992px and up)
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
-  .column { width: 50% }
+ .body { flex: none; }
   }
 
 // Extra large devices (large desktops, 1200px and up)
 @media screen and (min-width: 1200px) { 
- .column { width: 100% }
+ .body { flex: none; }
   }
 
