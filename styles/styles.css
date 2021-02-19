@@ -10,7 +10,10 @@ body
 { font: normal .80em 'preconnect', sans-serif;
   background: #F0F8FF;
   color: #000000;
-  font-family: 'preconnect',sans-serif ;}
+  font-family: 'preconnect',sans-serif ;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .column {
   width: 100%;
