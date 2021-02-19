@@ -372,12 +372,12 @@ table.staff tr td
 
 // Extra small devices (portrait phones, less than 576px)
 @media screen and (max-width: 575.98px) { 
-  .column { width: 50% }
+  .column { width: 100% }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-  .column { width: 50% }
+  .column { width: 100% }
   }
 
 // Medium devices (tablets, 768px and up)
@@ -387,7 +387,7 @@ table.staff tr td
 
 // Large devices (desktops, 992px and up)
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
-  .column { width: 100% }
+  .column { width: 50% }
   }
 
 // Extra large devices (large desktops, 1200px and up)
